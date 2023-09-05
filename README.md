@@ -12,7 +12,7 @@
 - Wide & Deep Learning for Recommender Systems, 2016
   - [`paper`](https://arxiv.org/abs/1606.07792), [`review`](./paper/2023_09_02_Wide_and_Deep.md)
 - DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
-  - [`paper`](https://arxiv.org/abs/1703.04247), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_09_01_DeepFM.md)
+  - [`paper`](https://arxiv.org/abs/1703.04247), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_08_30_DeepFM.md)
 
 ### 🏢 Industry
 
