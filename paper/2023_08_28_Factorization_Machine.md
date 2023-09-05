@@ -34,7 +34,7 @@ $$w_0 \in \mathbb{R},\; \vec{w} \in \mathbb{R}^n ,\; \mathbf{V} \in \mathbb{R}^{
     - a유저와 aa영화간의 interaction을 구하고 싶은데 train data에 해당 영화가 동시에 1을 가지는 경우가 없을 수 있습니다.
     - b유저가 aa영화, bb영화를 좋게 평가했다고 가정하겠습니다.
     - 그렇다면 $< \vec{v}_b,\vec{v} _ {aa}>, <\vec{v}_b, \vec{v} _ {bb} >$ 모두 큰 값을 가질 것입니다.
-    - 그런데 이때 a유저가 bb영화를 좋게 평가했다면 어떨까요? $<\vec{v}_a,\vec{v}_{bb}>$ 의 값이 크기 때문에
+    - 그런데 이때 a유저가 bb영화를 좋게 평가했다면 어떨까요? $<\vec{v}_a, \vec{v} _ {bb}>$ 의 값이 크기 때문에
     - 두 유저의 interaction값 $<\vec{v}_a,\vec{v}_b>$ 도 클 것이고 결국 a유저에게 aa영화를 추천해줄 수 있게 됩니다.
 - computation
   - 위의 model equation을 정리하면 (논문에 수식 있음) linear time($O(kn)$)으로 계산할 수 있는 장접이 있습니다.
