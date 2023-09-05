@@ -55,7 +55,7 @@ $$a^{(l+1)} = f(W^{(l)} a^{(l)} + b^{(l)})$$
 - 독립적으로 훈련하는 ensemble방법에 비해서 jointly 학습하면 서로의 약점을 보완하고 모델 사이즈도 더 작아집니다.
 - 최종 model's prediction은 아래와 같이 정리할 수 있습니다.
 
-$$P(Y=1|\boldsymbol{x}) = \sigma(\boldsymbol{w}_{wide}^T[\boldsymbol{x},\phi(\boldsymbol{x})] + w_{deep}^T a^l_{final} + b)$$
+$$P(Y=1|\boldsymbol{x}) = \sigma(\boldsymbol{w} _ {wide} ^ T [\boldsymbol{x},\phi(\boldsymbol{x})] + w_{deep}^T a^l_{final} + b)$$
 
 ## 시스템
 - pipline은 data generation, model training, model serving 3가지로 구성되어 있습니다.
