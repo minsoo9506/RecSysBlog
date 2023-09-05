@@ -31,16 +31,16 @@ wide component에서는 memorization의 역할을 합니다.
 
 - Generalized Linear model
   - $y$: prediction
-  - $\bold{x}$: raw input feature & cross-product feature
+  - $\boldsymbol{x}$: raw input feature & cross-product feature
 
-$$y=\bold{w}^T \bold{x}+b$$
+$$y=\boldsymbol{w}^T \boldsymbol{x}+b$$
 
 - cross-product feature
   - binary features간의 feature interaction을 계산합니다.
   - nonlinearity를 모델에 더해줍니다.
   - 예를 들어서, 'gender=남자, age=20대' 라는 cross-product feature는 해당 row가 'gender=남자'이고 'age=20대'인 경우 1의 값을 갖습니다.
 
-$$\phi_k (\bold{x}) = \prod_{i=1}^d x_i^{c_{ki}}, \;c_{ki} \in \{ 0,1 \}$$
+$$\phi_k (\boldsymbol{x}) = \prod_{i=1}^d x_i^{c_{ki}}, \;c_{ki} \in \{ 0,1 \}$$
 
 ### The Deep Component
 
@@ -55,7 +55,7 @@ $$a^{(l+1)} = f(W^{(l)} a^{(l)} + b^{(l)})$$
 - 독립적으로 훈련하는 ensemble방법에 비해서 jointly 학습하면 서로의 약점을 보완하고 모델 사이즈도 더 작아집니다.
 - 최종 model's prediction은 아래와 같이 정리할 수 있습니다.
 
-$$P(Y=1|\bold{x}) = \sigma(\bold{w}_{wide}^T[\bold{x},\phi(\bold{x})] + w_{deep}^T a^l_{final} + b)$$
+$$P(Y=1|\boldsymbol{x}) = \sigma(\boldsymbol{w}_{wide}^T[\boldsymbol{x},\phi(\boldsymbol{x})] + w_{deep}^T a^l_{final} + b)$$
 
 ## 시스템
 - pipline은 data generation, model training, model serving 3가지로 구성되어 있습니다.
