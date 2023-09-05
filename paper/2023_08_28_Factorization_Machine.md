@@ -1,12 +1,13 @@
 ---
 title: "[paper] Factorization Machine"
-date: "2023-08-29"
+date: "2023-08-28"
 author: "SongMinsoo"
 category: "Paper"
 tag: ["FM"]
 ---
 
 # Factorization Machine
+- Factorization Machines, 2010
 
 ## 배경
 - skip
