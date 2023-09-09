@@ -11,6 +11,8 @@
   - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_08_28_Factorization_Machine.md)
 - Wide & Deep Learning for Recommender Systems, 2016
   - [`paper`](https://arxiv.org/abs/1606.07792), [`review`](./paper/2023_09_02_Wide_and_Deep.md)
+- Neural Collaborative Filtering, 2017
+  - [`paper`](https://arxiv.org/pdf/1708.05031.pdf), [`code`](https://github.com/minsoo9506/RecModel) , [`review`](./paper/2023_09_07_NCF.md)
 - DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
   - [`paper`](https://arxiv.org/abs/1703.04247), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_08_30_DeepFM.md)
 
