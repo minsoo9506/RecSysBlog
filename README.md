@@ -18,7 +18,7 @@
 - Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018
   - [`paper`](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885), [`review`](./paper/2023_09_10_Search_Ranking_Airbnb_2018.md)
 - Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, RecSys 2019
-  - [`paper`](https://research.google/pubs/pub48840/)
+  - [`paper`](https://research.google/pubs/pub48840/), [`review`](./paper/2023_09_21_Two_Tower_in_batch.md), [`code`]()
 
 ### 🏢 Industry
 
