@@ -8,13 +8,13 @@
   
 ### 📄 Paper
 - Factorization Machines, 2010
-  - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_08_28_Factorization_Machine.md)
+  - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`review`](./paper/2023_08_28_Factorization_Machine.md), [`code`](https://github.com/minsoo9506/RecModel)
 - Wide & Deep Learning for Recommender Systems, 2016
   - [`paper`](https://arxiv.org/abs/1606.07792), [`review`](./paper/2023_09_02_Wide_and_Deep.md)
 - Neural Collaborative Filtering, 2017
-  - [`paper`](https://arxiv.org/pdf/1708.05031.pdf), [`code`](https://github.com/minsoo9506/RecModel) , [`review`](./paper/2023_09_07_NCF.md)
+  - [`paper`](https://arxiv.org/pdf/1708.05031.pdf), [`review`](./paper/2023_09_07_NCF.md), [`code`](https://github.com/minsoo9506/RecModel) 
 - DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
-  - [`paper`](https://arxiv.org/abs/1703.04247), [`code`](https://github.com/minsoo9506/RecModel), [`review`](./paper/2023_08_30_DeepFM.md)
+  - [`paper`](https://arxiv.org/abs/1703.04247), [`review`](./paper/2023_08_30_DeepFM.md), [`code`](https://github.com/minsoo9506/RecModel)
 - Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018
   - [`paper`](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885), [`review`](./paper/2023_09_10_Search_Ranking_Airbnb_2018.md)
 - Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, RecSys 2019
