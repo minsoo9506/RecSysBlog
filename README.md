@@ -23,7 +23,8 @@
   - [`paper`](https://arxiv.org/pdf/2008.13535.pdf), [`review`](./paper/2023_10_03_DCN2.md)
 
 ### 🏢 Industry
+#### Spotify
+- Introducing Natural Language Search for Podcast Episodes, 2022
+  - [`link`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/2023_10_14_spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
 
 ### 🧑🏻‍💻 Project
-#### 추천알고리즘 구현
-#### 추천시스템 플젝
