@@ -101,3 +101,11 @@ $$A[h(y)] \leftarrow t$$
   - user가 click하는 것을 기준으로 video를 추천하는 것이 ideal하지는 않지만 평가를 위해 그렇게 기준을 잡았습니다.
 
 ![img](../image/image_paper/youtube_retrieval_3.png)
+
+
+## 기타 관련 reference
+- Two Tower Model Architecture: Current State and Promising Extensions, 2023
+- Scaling deep retrieval with TensorFlow Recommenders and Vertex AI Matching Engine, 2023 Google
+- Innovative Recommendation Applications Using Two Tower Embeddings at Uber, 2023 Uber
+- Personalized recommendations - IV (two tower models for retrieval), 2021
+- Model-based candidate generation for account recommendations, 2022 X

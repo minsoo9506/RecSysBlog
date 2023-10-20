@@ -25,6 +25,8 @@
 ### 🏢 Industry
 #### Spotify
 - Introducing Natural Language Search for Podcast Episodes, 2022
-  - [`link`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/2023_10_14_spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
+  - [`blog`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/2023_10_14_spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
+- Modeling Users According to Their Slow and Fast-Moving Interests, 2022
+  - [`blog`](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/), [`review`](./industry/2023_10_16_spotify_Modeling_Users_According_to_Their_Slow_and_Fast-Moving_Interests.md)
 
 ### 🧑🏻‍💻 Project
