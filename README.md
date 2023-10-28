@@ -33,70 +33,52 @@
 ### 🧑🏻‍💻 Project
 
 ### 📑 Paper Reference
-
-Algorithm
-
-- Collaborative Filtering for Implicit Feedback Data, 2008
-- BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009
-- Context-Aware Recommender Systems, 2011
-- Neural Collaborative Filtering, 2017 IWWWC
-- Fatorization Machines, 2009
-- Wide & Deep Learning for Recommender Systems, 2016
-- DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
-- AutoRec: Autoencoders Meet Collaborative Filtering, 2015 WWW
-- Training Deep AutoEncoders for Collaborative Filtering, 2017
-- Variational Autoencoders for Collaborative Filtering, 2018
-- Deep content-based music recommendation, 2013 NIPS
-- Deep Learning Recommendation Model for Personalization and Recommendation Systems (DLRM), 2019 [`paper`](https://arxiv.org/pdf/1906.00091.pdf)
-- DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020 [`paper`](https://arxiv.org/pdf/2008.13535.pdf)
-- Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
-
-Algorithm - text, image
-
-- Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR
-- Image-based Recommendations on Styles and Substitutes, 2015 SIGIR
-- VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback, 2016 AAAI
-- Deep Neural Networks for YouTube Recommendations, 2016 RecSys [`paper`](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
-- Recommending What Video to Watch Next: A Multitask Ranking System, 2019 RecSys
-
-Algorithm - session-based, sequential
-
-- Session-based Recommendations with Recurrent Neural Networks, 2015 ICLR
-- BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer, 2019 [`paper`](https://arxiv.org/abs/1904.06690)
-- SASRec: Self-Attentive Sequential Recommendation, 2018 [`paper`](https://arxiv.org/abs/1808.09781)
-- Positive, Negative and Neutral: Modeling Implicit Feedback in Session-based News Recommendation, SIGIR 2022 [`paper`](https://arxiv.org/pdf/2205.06058.pdf)
-
-Algorithm - graph
-
-- PageRank: Standing on the shoulders of giant, 2010 [`paper`](https://arxiv.org/pdf/1002.2858.pdf)
-- DeepWalk: Online Learning of Social Representations, 2014 [`paper`](https://arxiv.org/pdf/1403.6652.pdf)
-- SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS, 2017 [`paper`](https://arxiv.org/pdf/1609.02907.pdf)
-- Inductive Representation Learning on Large Graphs, 2017 [`paper`](https://arxiv.org/pdf/1706.02216.pdf)
-- Graph Attention Networks, 2018 [`paper`](https://arxiv.org/pdf/1710.10903.pdf)
-- Graph Convolutional Neural Networks for Web-Scale Recommender Systems [`paper`](https://arxiv.org/pdf/1806.01973.pdf)
-
-Diversity
-
-- Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
-
-Bias
-
-- Lessons Learned Addressing Dataset Bias in Model-Based Candidate Generation at Twitter, 2020 KDD IRS
-- Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
-
-User Modeling
-
-- Exploring the longitudinal effects of nudging on users’ music
-genre exploration behavior and listening preferences, 2022 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
-- Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022 [`video`](https://dl.acm.org/doi/10.1145/3523227.3547381)
-
-Causality
-
-- Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020 [`papers`](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
-
-Survey
-
-- Deep Learning based Recommender System: A Survey and New Perspectives, 2019
+- Algorithm
+  - Collaborative Filtering for Implicit Feedback Data, 2008
+  - BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009
+  - Context-Aware Recommender Systems, 2011
+  - Neural Collaborative Filtering, 2017 IWWWC
+  - Fatorization Machines, 2009
+  - Wide & Deep Learning for Recommender Systems, 2016
+  - DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017
+  - AutoRec: Autoencoders Meet Collaborative Filtering, 2015 WWW
+  - Training Deep AutoEncoders for Collaborative Filtering, 2017
+  - Variational Autoencoders for Collaborative Filtering, 2018
+  - Deep content-based music recommendation, 2013 NIPS
+  - Deep Learning Recommendation Model for Personalization and Recommendation Systems (DLRM), 2019 [`paper`](https://arxiv.org/pdf/1906.00091.pdf)
+  - DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020 [`paper`](https://arxiv.org/pdf/2008.13535.pdf)
+  - Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
+- Algorithm - text, image
+  - Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR
+  - Image-based Recommendations on Styles and Substitutes, 2015 SIGIR
+  - VBPR: Visual Bayesian Personalized Ranking from Implicit Feedback, 2016 AAAI
+  - Deep Neural Networks for YouTube Recommendations, 2016 RecSys [`paper`](https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/45530.pdf)
+  - Recommending What Video to Watch Next: A Multitask Ranking System, 2019 RecSys
+- Algorithm - session-based, sequential
+  - Session-based Recommendations with Recurrent Neural Networks, 2015 ICLR
+  - BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer, 2019 [`paper`](https://arxiv.org/abs/1904.06690)
+  - SASRec: Self-Attentive Sequential Recommendation, 2018 [`paper`](https://arxiv.org/abs/1808.09781)
+  - Positive, Negative and Neutral: Modeling Implicit Feedback in Session-based News Recommendation, SIGIR 2022 [`paper`](https://arxiv.org/pdf/2205.06058.pdf)
+- Algorithm - graph
+  - PageRank: Standing on the shoulders of giant, 2010 [`paper`](https://arxiv.org/pdf/1002.2858.pdf)
+  - DeepWalk: Online Learning of Social Representations, 2014 [`paper`](https://arxiv.org/pdf/1403.6652.pdf)
+  - SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS, 2017 [`paper`](https://arxiv.org/pdf/1609.02907.pdf)
+  - Inductive Representation Learning on Large Graphs, 2017 [`paper`](https://arxiv.org/pdf/1706.02216.pdf)
+  - Graph Attention Networks, 2018 [`paper`](https://arxiv.org/pdf/1710.10903.pdf)
+  - Graph Convolutional Neural Networks for Web-Scale Recommender Systems [`paper`](https://arxiv.org/pdf/1806.01973.pdf)
+- Diversity
+  - Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
+- Bias
+  - Lessons Learned Addressing Dataset Bias in Model-Based Candidate Generation at Twitter, 2020 KDD IRS
+  - Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
+- User Modeling
+  - Exploring the longitudinal effects of nudging on users’ music
+  genre exploration behavior and listening preferences, 2022 [`paper`](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
+  - Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022 [`video`](https://dl.acm.org/doi/10.1145/3523227.3547381)
+- Causality
+  - Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020 [`papers`](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
+- Survey
+  - Deep Learning based Recommender System: A Survey and New Perspectives, 2019
 
 ### 📑 Other Reference
 - 카카오
