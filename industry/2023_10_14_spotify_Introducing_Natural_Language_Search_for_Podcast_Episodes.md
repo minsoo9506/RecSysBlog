@@ -40,7 +40,7 @@ tag: ["spotify", "search"]
 ### Training
 - 모델의 형태는 아래 그림과 같습니다. Two-Tower 형태입니다.
 
-![img](../image/image_industry/spotify_1.png)
+![img](../image/image_industry/spotify/spotify_1.png)
 
 - 최종 연산에서는 computational efficiency를 위해 아래와 같이 matrix를 만듭니다.
   - query, episode의 vector의 cosine similarity matrix

@@ -25,7 +25,7 @@ tag: ["spotify", "Music recommendation"]
   - 유저 데이터는 노래들에 대한 유저 피드백 데이터들을 사용합니다.
 
 ## 방법론
-![img](../image/image_industry/spotify_2.png)
+![img](../image/image_industry/spotify/spotify_2.png)
 
 - 일반적인 유저의 취향을 고려하기 위해 regular encoder로 과거 유저 데이터를 사용합니다.
   - 2개의 feedfoward network와 LeakyReLU 사용
