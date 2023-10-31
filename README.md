@@ -30,6 +30,10 @@
 - Modeling Users According to Their Slow and Fast-Moving Interests, 2022
   - [`blog`](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/), [`review`](./industry/2023_10_16_spotify_Modeling_Users_According_to_Their_Slow_and_Fast-Moving_Interests.md)
 
+#### Pinterest
+- The machine learning behind delivering relevant ads, 2021
+  - [blog](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/2023_10_28_pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
+
 ### 🧑🏻‍💻 Project
 
 ### 📑 Paper Reference
@@ -66,6 +70,8 @@
   - [Inductive Representation Learning on Large Graphs, 2017](https://arxiv.org/pdf/1706.02216.pdf)
   - [Graph Attention Networks, 2018](https://arxiv.org/pdf/1710.10903.pdf)
   - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://arxiv.org/pdf/1806.01973.pdf)
+- LookAlike
+  - [Finding Users Who Act Alike: Transfer Learning for Expanding Advertiser Audiences, KDD 2019](https://www.pinterestcareers.com/media/gvnpojec/transferlearning-kdd2019.pdf)
 - Diversity
   - Algorithmic Effects on the Diversity of Consumption on Spotify, WWW 2020
 - Bias
@@ -120,6 +126,8 @@
 - Spotify
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
   - [Modeling Users According to Their Slow and Fast-Moving Interests, spotify 2022](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/)
+- Pinterest
+  - [The machine learning behind delivering relevant ads, Pinterest 2021](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0)
 - Ebay
   - [Building a Deep Learning Based Retrieval System for Personalized Recommendations, ebay 2022](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)
 - nvidia
