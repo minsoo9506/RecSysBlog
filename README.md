@@ -32,7 +32,9 @@
 
 #### Pinterest
 - The machine learning behind delivering relevant ads, 2021
-  - [blog](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/2023_10_28_pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
+  - [`blog`](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/2023_10_28_pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
+- Pinterest Home Feed Unified Lightweight Scoring: A Two-tower Approach, 2021
+  - [`blog`](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55), [`review`](./industry/2023_11_02_Pinterest_Home_Feed_Unified_Lightweight_Scoring_A_Two-tower_Approach.md)
 
 ### 🧑🏻‍💻 Project
 
