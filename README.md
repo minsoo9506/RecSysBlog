@@ -25,16 +25,21 @@
 
 ### 🏢 Industry
 #### Spotify
+- The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021
+  - [`blog`](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/), [`review`](./industry/Spotify/2023_10_22_Spotify_The_Rise_(and%20Lessons%20Learned)_of_ML_Models_to_Personalize_Content_on_Home.md)
 - Introducing Natural Language Search for Podcast Episodes, 2022
-  - [`blog`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/2023_10_14_spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
+  - [`blog`](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/), [`review`](./industry/Spotify/2023_10_14_Spotify_Introducing_Natural_Language_Search_for_Podcast_Episodes.md)
 - Modeling Users According to Their Slow and Fast-Moving Interests, 2022
-  - [`blog`](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/), [`review`](./industry/2023_10_16_spotify_Modeling_Users_According_to_Their_Slow_and_Fast-Moving_Interests.md)
+  - [`blog`](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/), [`review`](./industry/Spotify/2023_10_16_Spotify_Modeling_Users_According_to_Their_Slow_and_Fast-Moving_Interests.md)
 
 #### Pinterest
 - The machine learning behind delivering relevant ads, 2021
-  - [`blog`](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/2023_10_28_pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
+  - [`blog`](https://medium.com/pinterest-engineering/the-machine-learning-behind-delivering-relevant-ads-8987fc5ba1c0), [`review`](./industry/Pinterest/2023_10_28_Pinterest_The_machine_learning_behind_delivering_relevants_ads.md)
 - Pinterest Home Feed Unified Lightweight Scoring: A Two-tower Approach, 2021
-  - [`blog`](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55), [`review`](./industry/2023_11_02_Pinterest_Home_Feed_Unified_Lightweight_Scoring_A_Two-tower_Approach.md)
+  - [`blog`](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55), [`review`](./industry/Pinterest/2023_11_02_Pinterest_Home_Feed_Unified_Lightweight_Scoring_A_Two-tower_Approach.md)
+- Query Rewards: Building a Recommendation Feedback Loop During Query Selection, 2022
+  - [`blog`](https://medium.com/pinterest-engineering/query-rewards-building-a-recommendation-feedback-loop-during-query-selection-70b4d20e5ea0), [`review`](./industry/Pinterest/2023_11_12_Pinterest_Query_Rewards_Building_a_Recommendation_Feedback_Loop_During_Query_Selection.md)
+
 
 ### 🧑🏻‍💻 Project
 
@@ -126,6 +131,7 @@
   - [유사 이미지 추천 개발 #1 비슷한 공간 - 콘텐츠 추천을 위한 이미지 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-05-22-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-1-%EB%B9%84%EC%8A%B7%ED%95%9C-%EA%B3%B5%EA%B0%84/)
   - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
 - Spotify
+  - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
   - [Modeling Users According to Their Slow and Fast-Moving Interests, spotify 2022](https://research.atspotify.com/2022/02/modeling-users-according-to-their-slow-and-fast-moving-interests/)
 - Pinterest
