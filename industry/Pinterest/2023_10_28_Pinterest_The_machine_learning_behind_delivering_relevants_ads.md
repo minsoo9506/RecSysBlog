@@ -19,7 +19,7 @@ tag: ["Pinterest", "Ad", "LookAlike"]
 - 먼저 regresion-based는 seed user를 포함하여 0,1(광고 클릭 여부) binary classification 모델을 훈련하고 infernce dataset user들을 예측한 뒤 top-k score인 유저들을 뽑아 비슷한 유저들을 뽑습니다.
 - 이에 반해 similarity-based는 seed user의 embedding값을 만들고 nearest neighbor를 찾아서 비슷한 유저들을 뽑습니다.
 
-![img](../image/image_industry/pinterest/pinterest_1.png)
+![img](../../image/image_industry/pinterest/pinterest_1.png)
 
 - 각 방법은 장단점이 있습니다.
   - regression-based
@@ -40,7 +40,7 @@ tag: ["Pinterest", "Ad", "LookAlike"]
   - weight는 number of impression, CTR 등등이 됩니다.
   - scaling해서 weight들의 scale은 동일하게 만들어서 사용합니다.
 
-![img](../image/image_industry/pinterest/pinterest_2.png)
+![img](../../image/image_industry/pinterest/pinterest_2.png)
 
 ## 평가
 

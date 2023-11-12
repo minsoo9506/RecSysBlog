@@ -17,7 +17,7 @@ tag: ["Pinterest", "Two-Tower"]
 - 이에 따라 엔지니어링 리소스와 개발 속도도 느려지고 실시간 서빙에도 영향을 주게 되었습니다.
 - 따라서, 통일된 형태의 ML모델과 candidate generator 서빙방법이 필요했습니다.
 
-![img](../image/image_industry/pinterest/pinterest_3.png)
+![img](../../image/image_industry/pinterest/pinterest_3.png)
 
 ## Two-Tower Architecture
 - 일반적인 two-tower 모델의 형태를 이용합니다.
@@ -34,7 +34,7 @@ tag: ["Pinterest", "Two-Tower"]
 - User embedding serving
   - user들은 관심 pin이 자주 바뀔 수 있기 때문에 user request마다 online inference를 합니다.
 
-![img](../image/image_industry/pinterest/pinterest_4.png)
+![img](../../image/image_industry/pinterest/pinterest_4.png)
 
 ### Evaluate
 - Engagement

@@ -19,11 +19,11 @@ tag: ["spotify", "Music recommendation"]
 - ML workflow는 3가지로 구분합니다.
   - data management, experimentation, operationalization
 
-![img](../image/image_industry/spotify/spotify_3.png)
+![img](../../image/image_industry/spotify/spotify_3.png)
 
 - 아래 그럼처럼 다향한 부분에서 자동화를 시키고 pipeline을 잘 구성했습니다.
 
-![img](../image/image_industry/spotify/spotify_4.png)
+![img](../../image/image_industry/spotify/spotify_4.png)
 
 ## training, serving data 일원화
 - training과 serving시 데이터를 처리하는 과정이 달라서 4개월동안 잘못된 결과를 사용했습니다.
