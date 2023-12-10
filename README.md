@@ -39,6 +39,8 @@
   - [`blog`](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55), [`review`](./industry/Pinterest/2023_11_02_Pinterest_Home_Feed_Unified_Lightweight_Scoring_A_Two-tower_Approach.md)
 - Query Rewards: Building a Recommendation Feedback Loop During Query Selection, 2022
   - [`blog`](https://medium.com/pinterest-engineering/query-rewards-building-a-recommendation-feedback-loop-during-query-selection-70b4d20e5ea0), [`review`](./industry/Pinterest/2023_11_12_Pinterest_Query_Rewards_Building_a_Recommendation_Feedback_Loop_During_Query_Selection.md)
+- How Pinterest Leverages Realtime User Actions in Recommendation to Boost Homefeed Engagement Volume, 2022
+  - [`blog`](https://medium.com/pinterest-engineering/), [`review`](./industry/Pinterest/2023_12_10_How_Pinterest_Leverages_Realtime_User_Actions_in_Recommendation_to_Boost_Homefeed_Engagement_Volume_2022.md)
 
 
 ### 🧑🏻‍💻 Project
