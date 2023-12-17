@@ -42,6 +42,10 @@
 - How Pinterest Leverages Realtime User Actions in Recommendation to Boost Homefeed Engagement Volume, 2022
   - [`blog`](https://medium.com/pinterest-engineering/), [`review`](./industry/Pinterest/2023_12_10_How_Pinterest_Leverages_Realtime_User_Actions_in_Recommendation_to_Boost_Homefeed_Engagement_Volume_2022.md)
 
+#### Meta(Facebook)
+- How Instagram suggests new content, 2020
+  - [`blog`](https://engineering.fb.com/2020/12/10/web/how-instagram-suggests-new-content/), [`review`](./industry/Meta(Facebook)/2023_12_17_How_Instagram_suggests_new_content_2020.md)
+
 
 ### 🧑🏻‍💻 Project
 
