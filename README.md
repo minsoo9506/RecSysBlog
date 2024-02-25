@@ -51,6 +51,9 @@
   - [`blog`](https://engineering.linkedin.com/blog/2019/04/ai-behind-linkedin-recruiter-search-and-recommendation-systems), [`review`](./industry/LikedIn/2023_12-17_The_AI_Behind_LinkedIn_Recruiter_search_and_recommendation_systems.md)
 - Near real-time features for near real-time personalization, 2022
   - [`blog`](https://engineering.linkedin.com/blog/2022/near-real-time-features-for-near-real-time-personalization), [`review`](./industry/LikedIn/2024_01_03_Near_real-time_features_for_near_real-time_personalization.md)
+- Community building recommender for group chats in LinkedIn Messaging, 2022
+  - [`blog`](https://engineering.linkedin.com/blog/2022/community-building-recommender-for-group-chats-in-linkedin-messa), [`review`](./industry/LikedIn/2024_01_27_Community_building_recommender_for_group_chats_in_LinkedIn_Messaging_2022.md)
+
 
 ### 🧑🏻‍💻 Project
 
