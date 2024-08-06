@@ -105,6 +105,8 @@
   - [Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, RecSys2020](https://labtomarket.files.wordpress.com/2020/08/recsys2020lbr.pdf?utm_source=LinkedIn&utm_medium=post&utm_campaign=monday_posting&utm_term=2023_07_24)
 - Survey
   - Deep Learning based Recommender System: A Survey and New Perspectives, 2019
+  - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
+  - [Fairness and Diversity in Recommender Systems: A Survey, 2024](https://arxiv.org/pdf/2307.04644)
 
 ### 📑 Other Reference
 - 카카오
@@ -125,8 +127,10 @@
   - 번개장터 추천시스템 개발 및 도입후기 (2017)
 - 하이퍼커넥트
   - 비용 효율적인 Click-Through Rate Prediction 모델로 하쿠나 라이브 추천시스템 구축하기
+  - [아자르에서 AI 기반 추천 모델의 타겟 지표를 설정하는 방법 (feat. 아하 모멘트), 2024](https://hyperconnect.github.io/2024/04/26/azar-aha-moment.html)
+  - [이벤트 기반의 라이브 스트리밍 추천 시스템 운용하기, 2022](https://hyperconnect.github.io/2022/01/24/event-driven-recsys.html)
 - 라인
-  - LINE Timeline의 새로운 도전 (2020.04)
+  - [LINE Timeline의 새로운 도전 (2020.04)](https://engineering.linecorp.com/ko/blog/line-timeline-discover-ml-recommendation)
 - 네이버
   - (Deview2021) BERT로 만든 네이버 플레이스 비슷한 취향 유저 추천 시스템
   - (Deview2021) Knowledge Graph에게 맛집과 사용자를 묻는다: GNN으로 맛집 취향 저격 하기
@@ -147,6 +151,10 @@
 - 우아한형제들(배민)
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
   - [(2023 우아콘) 여기, 주문하신 '예측' 나왔습니다: 추천/ML에서 '예측'을 서빙한다는 것에 대하여](https://www.youtube.com/watch?v=OXAABJWUgx4&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=15)
+  - [실시간 반응형 추천 개발 일지 #1. 프로젝트 소개, 2024](https://techblog.woowahan.com/17383/)
+- 컬리
+  - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 1부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development/)
+  - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 2부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development_second/)
 - Spotify
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
@@ -166,7 +174,8 @@
 - meta (facebook)
   - [Scaling the Instagram Explore recommendations system, meta 2023](https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/)
   - [How machine learning powers Facebook’s News Feed ranking algorithm, meta 2021](https://engineering.fb.com/2021/01/26/ml-applications/news-feed-ranking/)
-
+- Netflix
+  - [Innovating Faster on Personalization Algorithms at Netflix Using Interleaving, 2017](https://netflixtechblog.com/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
 - Others
   - Transformers4Rec: A flexible library for Sequential and Session-based recommendation
   - [[22'Recsys] BERT4Rec 구현의 진실에 관하여 : A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation](https://mytype9591.tistory.com/m/6)
@@ -174,3 +183,4 @@
   - [DLRM github](https://github.com/facebookresearch/dlrm)
   - [DeepCTR github](https://github.com/shenweichen/DeepCTR)
   - [Two Tower Model Architecture: Current State and Promising Extensions, 2023](https://blog.reachsumit.com/posts/2023/03/two-tower-model/)
+  - [추천 시스템 서비스 적용을 위한 Elastic Search 도입기, 2022](https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%81%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-elastic-search-%EB%8F%84%EC%9E%85%EA%B8%B0/)
