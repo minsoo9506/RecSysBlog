@@ -126,8 +126,9 @@
 - 번개장터
   - 번개장터 추천시스템 개발 및 도입후기 (2017)
 - 하이퍼커넥트
-  - 비용 효율적인 Click-Through Rate Prediction 모델로 하쿠나 라이브 추천시스템 구축하기
+  - [비용 효율적인 Click-Through Rate Prediction 모델로 하쿠나 라이브 추천시스템 구축하기, 2021](https://hyperconnect.github.io/2021/04/26/hakuna-recsys-gb.html)
   - [아자르에서 AI 기반 추천 모델의 타겟 지표를 설정하는 방법 (feat. 아하 모멘트), 2024](https://hyperconnect.github.io/2024/04/26/azar-aha-moment.html)
+  - [협업 필터링을 넘어서: 하이퍼커넥트 AI의 추천 모델링, 2024](https://hyperconnect.github.io/2024/10/21/beyond-collaborative-filtering.html)
   - [이벤트 기반의 라이브 스트리밍 추천 시스템 운용하기, 2022](https://hyperconnect.github.io/2022/01/24/event-driven-recsys.html)
 - 라인
   - [머신러닝을 활용한 오픈챗 클린 스코어 모델 개발기, 2020](https://engineering.linecorp.com/ko/blog/line-openchat-cleanscore)
@@ -151,6 +152,7 @@
 - 오늘의집
   - [유사 이미지 추천 개발 #1 비슷한 공간 - 콘텐츠 추천을 위한 이미지 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-05-22-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-1-%EB%B9%84%EC%8A%B7%ED%95%9C-%EA%B3%B5%EA%B0%84/)
   - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
+  - [개인화 추천 시스템 #1. Multi-Stage Recommender System, 2024](https://www.bucketplace.com/post/2024-03-26-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-1-multi-stage-recommender-system/)
   - [개인화 추천 시스템 #2. Personalized Content Ranking, 2024](https://www.bucketplace.com/post/2024-07-10-%EA%B0%9C%EC%9D%B8%ED%99%94-%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-2-personalized-content-ranking/)
 - 우아한형제들(배민)
   - [(2023 우아콘) 추천시스템 성장 일지: 데이터 엔지니어 편](https://www.youtube.com/watch?v=x49PqlAQC3U&list=PLgXGHBqgT2TundZ81MAVHPzeYOTeII69j&index=13)
@@ -160,6 +162,8 @@
 - 컬리
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 1부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development/)
   - [함께 구매하면 좋은 상품이에요! - 장바구니 추천 개발기 2부, 2024](https://helloworld.kurly.com/blog/cart-recommend-model-development_second/)
+- 토스
+  - [SLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기, 2024](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
 - Spotify
   - [The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/)
   - [Introducing Natural Language Search for Podcast Episodes, spotify 2022](https://engineering.atspotify.com/2022/03/introducing-natural-language-search-for-podcast-episodes/)
