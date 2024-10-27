@@ -2,7 +2,7 @@
 - 20분이라 듣기 딱 좋다.
 - 영상에서 발표자가 너무 크다. 녹음된 음성이 아쉬운 경우가 있다.
 
-# 토스ㅣSLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기 (https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
+# [토스ㅣSLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
 ## 모델링
 - 토스 쇼핑 서비스 2023.03 시작
 - 초기 설계 시 고려해야할 점
@@ -58,7 +58,7 @@
     - 개인화 추천, 실시간성, 10M 유저에게 100ms 로 결과 전달
 - 각각 필요한 쪽에서 둘 다 잘 사용하는 중
 
-# 토스ㅣSLASH 24 - ML 기반 자동 타겟팅으로 고객 만족과 마케팅 효율 모두 잡기! (https://www.youtube.com/watch?v=sR4P0v0uUhA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=3)
+# [토스ㅣSLASH 24 - ML 기반 자동 타겟팅으로 고객 만족과 마케팅 효율 모두 잡기!](https://www.youtube.com/watch?v=sR4P0v0uUhA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=3)
 
 - 타겟팅 왜 할까?
   - 사용자 유입, 이탈 방지, 전환
@@ -119,7 +119,7 @@
     - 사용자가 받기 적정 메시지 수, 주기
   - 타겟팅 푸시/앱 알람 이외 채널 확장
 
-# 토스ㅣSLASH 24 - ML 플랫폼으로 개발 속도와 안정성 높이기 (https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
+# [토스ㅣSLASH 24 - ML 플랫폼으로 개발 속도와 안정성 높이기](https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
 
 - 초기 단걔의 머신러닝 모델 개발
   - 데이터 가공, 모델 개발, 서비스 적용을 개별로 접근
@@ -162,7 +162,7 @@
   - 모델 훈련, 배포 편리함
   - 전체 프로세스 모니터링
 
-# 토스ㅣSLASH 24 - Feature Store로 유연하게 ML 고도화하기(https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
+# [토스ㅣSLASH 24 - Feature Store로 유연하게 ML 고도화하기](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
 
 - feature store ?
   - 모델 학습, 추론을 위한 feature 를 저장 & 관리하는 시스템
