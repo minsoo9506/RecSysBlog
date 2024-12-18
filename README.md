@@ -73,6 +73,8 @@
   - [Deep Learning Recommendation Model for Personalization and Recommendation Systems (DLRM), 2019](https://arxiv.org/pdf/1906.00091.pdf)
   - [DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020](https://arxiv.org/pdf/2008.13535.pdf)
   - [Real-time Personalization using Embeddings for Search Ranking at Airbnb, KDD 2018](https://dl.acm.org/doi/pdf/10.1145/3219819.3219885)
+  - [Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations, 2019](https://storage.googleapis.com/gweb-research2023-media/pubtools/5716.pdf)
+  - [Mixed Negative Sampling for Learning Two-tower Neural Networks in Recommendations, 2020](https://storage.googleapis.com/gweb-research2023-media/pubtools/6090.pdf)
 - Algorithm - text, image
   - Joint Training of Ratings and Reviews with Recurrent Recommender Nerworks, 2017 ICLR
   - Image-based Recommendations on Styles and Substitutes, 2015 SIGIR
@@ -98,6 +100,8 @@
 - Bias
   - Lessons Learned Addressing Dataset Bias in Model-Based Candidate Generation at Twitter, 2020 KDD IRS
   - [Popularity-Opportunity Bias in Collaborative Filtering, WSDM 2021](https://dl.acm.org/doi/pdf/10.1145/3437963.3441820)
+  - [Managing Popularity Bias in Recommender Systems with Personalized Re-ranking, 2019](https://arxiv.org/pdf/1901.07555)
+  - [The Unfairness of Popularity Bias in Recommendation, 2019](https://arxiv.org/pdf/1907.13286)
 - User Modeling
   - [Exploring the longitudinal effects of nudging on users’ music genre exploration behavior and listening preferences, 2022](https://dl.acm.org/doi/pdf/10.1145/3523227.3546772)
   - [Personalizing Benefits Allocation Without Spending Money: Utilizing Uplift Modeling in a Budget Constrained Setup, Recsys2022](https://dl.acm.org/doi/10.1145/3523227.3547381)
@@ -121,6 +125,8 @@
   - 브런치 추천의 힘에 대한 6가지 기술
   - if(kakao)dev2022 Sequential Recommendation System 카카오 서비스 적용기
   - if(kakao)dev2022 Explainable Recommender System in 카카오웹툰
+- 카카오엔터테인먼트
+  - [최애 작품 이용권 선물해주는 ‘Helix 푸시’ 개발기 (2024)](https://if.kakao.com/session/19)
 - 당근
   - 딥러닝 개인화 추천 (당근마켓, 2019)
 - 번개장터
@@ -149,6 +155,8 @@
   - [검색어 분석을 통한 상품 정렬 개선, 무신사 2021](https://medium.com/musinsa-tech/%EA%B2%80%EC%83%89%EC%96%B4-%EB%B6%84%EC%84%9D%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%83%81%ED%92%88-%EC%A0%95%EB%A0%AC-%EA%B0%9C%EC%84%A0-b92ded2923c3)
 - 라이너
   - [TikTok for Text! 라이너 앱 Session-based Recommender 구축기, 라이너 2023](https://blog.getliner.com/sessrec/)
+  - [Bag-of-Tricks for Recommendation: Recency, Clustering 그리고 Item Shuffling, 2022](https://blog.liner.space/bag-of-tricks-for-recommendation)
+  - [신뢰성 있는 문서를 골라주기 위한 Liner Ranker, 2024](https://blog.liner.space/line-ranker)
 - 오늘의집
   - [유사 이미지 추천 개발 #1 비슷한 공간 - 콘텐츠 추천을 위한 이미지 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-05-22-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-1-%EB%B9%84%EC%8A%B7%ED%95%9C-%EA%B3%B5%EA%B0%84/)
   - [유사 이미지 추천 개발 #2 비슷한 상품 - 커머스 상품 추천을 위한 유사도 모델 개발 과정](https://www.bucketplace.com/post/2023-07-13-%EC%9C%A0%EC%82%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EC%B2%9C-%EA%B0%9C%EB%B0%9C-2-%EB%B9%84%EC%8A%B7%ED%95%9C-%EC%83%81%ED%92%88/)
@@ -195,3 +203,4 @@
   - [DeepCTR github](https://github.com/shenweichen/DeepCTR)
   - [Two Tower Model Architecture: Current State and Promising Extensions, 2023](https://blog.reachsumit.com/posts/2023/03/two-tower-model/)
   - [추천 시스템 서비스 적용을 위한 Elastic Search 도입기, 2022](https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%81%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-elastic-search-%EB%8F%84%EC%9E%85%EA%B8%B0/)
+  - [Recommendation Systems • Bias](https://aman.ai/recsys/bias/)
