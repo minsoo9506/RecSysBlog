@@ -2,8 +2,9 @@
 - 20분이라 듣기 딱 좋다.
 - 영상에서 발표자가 너무 크다. 녹음된 음성이 아쉬운 경우가 있다.
 
-# [토스ㅣSLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
-## 모델링
+# 추천
+## [토스ㅣSLASH 24 - 기반 데이터가 부족해도 OK! 커머스 추천 시스템 제작기](https://www.youtube.com/watch?v=LAD6LYnkPsA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=31)
+#### 모델링
 - 토스 쇼핑 서비스 2023.03 시작
 - 초기 설계 시 고려해야할 점
   - 빠르게 증가하는 유저, 아이템
@@ -36,7 +37,8 @@
       - construct negative label by mixed random sampling
         - uniform random sampling (recall 증가) 과 in-batch random sampling (diversity 증가) 을 섞어서 진행
       - use sampled softmax loss with logQ correction
-## serving architecture
+
+##### serving architecture
 - 서비스에서 고려할 점: 많은 고객 수, 빠른 반응성, 한정된 자원
 -  배치
    - 모델 서빙과 흐름
@@ -58,7 +60,8 @@
     - 개인화 추천, 실시간성, 10M 유저에게 100ms 로 결과 전달
 - 각각 필요한 쪽에서 둘 다 잘 사용하는 중
 
-# [토스ㅣSLASH 24 - ML 기반 자동 타겟팅으로 고객 만족과 마케팅 효율 모두 잡기!](https://www.youtube.com/watch?v=sR4P0v0uUhA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=3)
+# 타겟팅
+## [토스ㅣSLASH 24 - ML 기반 자동 타겟팅으로 고객 만족과 마케팅 효율 모두 잡기!](https://www.youtube.com/watch?v=sR4P0v0uUhA&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=3)
 
 - 타겟팅 왜 할까?
   - 사용자 유입, 이탈 방지, 전환
@@ -79,35 +82,35 @@
   - 시뮬레이션/유사유저: 과거 사례와 모델 비교 / 유사유저 추출
   - 결과 합치기
 
-## 시뮬레이터/유사유저 모델
+### 시뮬레이터/유사유저 모델
 - 서비스/광고 선호도(클릭, 전환) 예측 모델 LightGBM (70개)
 - 결제 카테고리 200개 예측 모델 Transformer
 
-### 시뮬레이터
+#### 시뮬레이터
 1. 과거 레퍼런스 (과거 타겟팅 데이터를 의미하는 듯) AND 광고선호 그룹 탐색
    1. 모델을 통해 예측을 하고 과거 데이터를 이용해서 적절한 CTR/CVR 에서 자른다.
    2. 근데 그러면 과거 타겟팅의 bias 가 있을 것 같은데 이에 대한 설명은 없다. 아니면 내가 아예 로직을 잘못 이해한 것일 수도 있다.
 2. 모델들을 이용하여 적정 CTR/CVR 이상 집단 추출
 3. 결과 조합하여 최종 세그먼트 생성
 
-### 유사유저모델 (Look-A-Like)
+#### 유사유저모델 (Look-A-Like)
 - 메시지에 반응한 사용자를 학습하여 유사 사용자를 예측
   - 클릭(0,1) 데이터로 분류 모델 만들고 확률값으로 잘라서 유사 유저 추출
 
-### 요청 flow
+#### 요청 flow
 - 위 결과들을 or 결과로 해서 최대한 전체 수 확보를 위해 노력한다고 함
 - 사용자 ML 세그먼트 호출 -> (아마) 과거 데이터 전달 -> LAL, Simulator 호출 -> 결과 전달
 
-## 성과 (최근 4주 기준, 광고 푸시)
+### 성과 (최근 4주 기준, 광고 푸시)
 - 수동 평균 CTR 대비 90%, CVR 20% 상승
 
-## 실제 사례
+### 실제 사례
 - 결론적으로 다 좋아졋다
   - 오늘의 운세
   - 광복적 이벤트
   - 토스페이 가맹점 대상 푸시
 
-## next step
+### next step
 - 여러 종류의 요청 증가
   - 소수의 큰 Deep model 로 대응
   - 메시지 내용, 이미지 feature 사용
@@ -119,7 +122,8 @@
     - 사용자가 받기 적정 메시지 수, 주기
   - 타겟팅 푸시/앱 알람 이외 채널 확장
 
-# [토스ㅣSLASH 24 - ML 플랫폼으로 개발 속도와 안정성 높이기](https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
+# 플랫폼
+## [토스ㅣSLASH 24 - ML 플랫폼으로 개발 속도와 안정성 높이기](https://www.youtube.com/watch?v=-im8Gzmf3TM&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=13)
 
 - 초기 단걔의 머신러닝 모델 개발
   - 데이터 가공, 모델 개발, 서비스 적용을 개별로 접근
@@ -132,13 +136,9 @@
   - 데이터/모델/서빙 drift 문제
   - 모니터링의 어려움
 
-![img](./SLASH24_01.png)
-
 ### FeatureStore
 - 학습, 추론용 피처 데이터 관리
 - 데이터 drift 모니터링
-
-![img](./SLASH24_02.png)
 
 ### DagBuilder
 - Airflow 위에서 동작하는 파이프라인 빌더
@@ -149,12 +149,7 @@
   - feature drift, 예측 결과 분포 등
 - (우리팀에도 이런 기능이 있으면 좋을 것 같다고 생각듬)
 
-## 실제 사용 사례
-- 광고 CTR 예측
-
-![img](./SLASH24_03.png)
-
-## 플랫폼 사용 효과
+### 플랫폼 사용 효과
 - 개발속도와 안정성 증가
   - 피처 재사용
   - dagbuilder 로 편하게 파이프라인 개발
@@ -162,7 +157,7 @@
   - 모델 훈련, 배포 편리함
   - 전체 프로세스 모니터링
 
-# [토스ㅣSLASH 24 - Feature Store로 유연하게 ML 고도화하기](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
+## [토스ㅣSLASH 24 - Feature Store로 유연하게 ML 고도화하기](https://www.youtube.com/watch?v=-u3rhd7k2JQ&list=PL1DJtS1Hv1PiGXmgruP1_gM2TSvQiOsFL&index=20)
 
 - feature store ?
   - 모델 학습, 추론을 위한 feature 를 저장 & 관리하는 시스템
