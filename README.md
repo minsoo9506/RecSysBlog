@@ -1,13 +1,12 @@
-- 타인에게 설명한다고 생각하고 정리합니다.
-- 이를 기반으로 나중에 강의를 찍고 싶은 계획이 있습니다.
-
-## Index
+# Index
 - Paper: 논문의 주요 내용을 정리합니다.
 - Industry: 회사들의 tech blog 주요 내용을 정리합니다.
-- Project: 추천시스템과 관련한 개인 프로젝트를 진행하면서 기록을 남기고 싶은 내용을 정리합니다.
-- Reference: 추천시스템과 관련한 정보를 아카이빙합니다.
-  
-### 📄 Paper
+- Practice: 공부하는 과정에서 기록으로 남기고 싶은 내용을 정리합니다.
+- Project: 개인 프로젝트를 진행하면서 기록을 남기고 싶은 내용을 정리합니다.
+- Reference: 다양한 레퍼런스 아카이빙합니다.
+
+# 📄 Paper
+### Rec Sys
 - Factorization Machines, 2010
   - [`paper`](https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf), [`review`](./paper/2023_08_28_Factorization_Machine.md), [`code`](https://github.com/minsoo9506/RecModel)
 - Wide & Deep Learning for Recommender Systems, 2016
@@ -23,7 +22,18 @@
 - DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems 2020
   - [`paper`](https://arxiv.org/pdf/2008.13535.pdf), [`review`](./paper/2023_10_03_DCN2.md)
 
-### 🏢 Industry
+### Imbalanced Learning, Anomaly Detection
+- Deep Learning for Anomaly Detection A Review, 2020
+  - [`paper`](https://arxiv.org/pdf/2007.02500.pdf), [`review`](./paper/Deep_Learning_for_Anomaly_Detection_A_Review.md)
+- Deep Autoencoding Gaussian Mixture Model For Unsupervised Anomaly Detection, ICLR 2018
+  - [`paper`](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf), [`review`](./paper/DAGMM.pdf)
+- Adversarial Autoencoders, 2016
+  - [`paper`](https://arxiv.org/abs/1511.05644), [`review`](./paper/Adversarial_Autoencoders.pdf)
+- USAD : UnSupervised Anomaly Detection on multivariate time series, KDD2020
+  - [`paper`](https://dl.acm.org/doi/10.1145/3394486.3403392), [`review`](./paper/USAD.pdf)
+
+# 🏢 Industry
+### Rec Sys
 #### Spotify
 - The Rise (and Lessons Learned) of ML Models to Personalize Content on Home, 2021
   - [`blog`](https://engineering.atspotify.com/2021/11/the-rise-and-lessons-learned-of-ml-models-to-personalize-content-on-home-part-i/), [`review`](./industry/Spotify/2023_10_22_Spotify_The_Rise_(and%20Lessons%20Learned)_of_ML_Models_to_Personalize_Content_on_Home.md)
@@ -54,10 +64,28 @@
 - Community building recommender for group chats in LinkedIn Messaging, 2022
   - [`blog`](https://engineering.linkedin.com/blog/2022/community-building-recommender-for-group-chats-in-linkedin-messa), [`review`](./industry/LikedIn/2024_01_27_Community_building_recommender_for_group_chats_in_LinkedIn_Messaging_2022.md)
 
+# 🧑🏻‍💻 Practice
+### Imbalanced Learning, Anomaly Detection
+- Dacon 신용카드 사용자 연체 예측 AI 경진대회 [`code`](./practice/Dacon%20신용카드%20사용자%20연체%20예측/)
+- Kaggle Credit Card Fraud Detection [`code`](./practice/Kaggle%20Credit%20Card%20Fraud%20Detection/)
 
-### 🧑🏻‍💻 Project
+### Causality
+- [Brady Neal - Causal Inference](https://minsoo9506.github.io/categories/causality/)
+- [Causal Inference for the Brave and True](./practice/Causal_Inference_for_the_Brave_and_True_practice/)
+- [DoWhy tutorial](./practice/DoWhy_tutorial/)
+- [Heterogeneous Treatment Effect Estimation tutorial](./practice/heterogeneous_treatment_effect_estimation_tutorial/)
 
-### 📑 Paper Reference
+# 🧑🏻‍💻 Project
+### Rec Sys
+- 모델 구현 [`repository`](https://github.com/minsoo9506/RecModel)
+
+### Imbalanced Learning, Anomaly Detection
+- 네트워크임베딩 대학원수업 기말 프로젝트 (Anomaly Detection with Graph Embedding Ensemble) [`pdf`](./practice/Anomaly_Detection_with_Graph_Embedding_Ensemble.pdf)
+- 모델 구현 (라이브러리화) [`repository`](https://github.com/minsoo9506/catchMinor)
+
+
+# 📑 Paper Reference
+### Rec Sys
 - Algorithm
   - Collaborative Filtering for Implicit Feedback Data, 2008
   - BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009
@@ -112,7 +140,68 @@
   - [A Survey on Causal Inference for Recommendation, 2024](https://arxiv.org/abs/2303.11666)
   - [Fairness and Diversity in Recommender Systems: A Survey, 2024](https://arxiv.org/pdf/2307.04644)
 
-### 📑 Other Reference
+### Imbalanced Learning, Anomaly Detection
+- Survey
+  - [Learning From Imbalanced Data: open challenges and future directions (survey article 2016)](https://link.springer.com/article/10.1007/s13748-016-0094-0)
+  - [Deep Learning for Anomaly Detection A Review, 2020](https://arxiv.org/pdf/2007.02500.pdf)
+  - [Autoencoders, 2020](https://arxiv.org/pdf/2003.05991.pdf)
+- Perfomance Measure
+  - [The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets](https://pubmed.ncbi.nlm.nih.gov/25738806/)
+  - [The Relationship Between Precision-Recall and ROC Curves](https://www.biostat.wisc.edu/~page/rocpr.pdf)
+  - [Predicting Good Probabilities With Supervised Learning](https://www.cs.cornell.edu/~alexn/papers/calibration.icml05.crc.rev3.pdf)
+  - [Properties and benefits of calibrated classifiers](http://www.ifp.illinois.edu/~iracohen/publications/CalibrationECML2004.pdf)
+  - [The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets](https://www.researchgate.net/publication/273155496_The_Precision-Recall_Plot_Is_More_Informative_than_the_ROC_Plot_When_Evaluating_Binary_Classifiers_on_Imbalanced_Datasets)
+-  Cost-sensitive
+   - [An optimized cost-sensitive SVM for imbalanced data learning](https://webdocs.cs.ualberta.ca/~zaiane/postscript/pakdd13-1.pdf)
+   - [Metacost : a general method for making classifiers cost-sensitive (KDD 99)](https://homes.cs.washington.edu/~pedrod/papers/kdd99.pdf)
+   - [The influence of class imbalance on cost-sensitive learning (IEEE 2006)](https://ieeexplore.ieee.org/document/4053137)
+   - [Learning and Making Decisions When Costs and Probabilities are Both Unknown (2001)](https://cseweb.ucsd.edu/~elkan/kddbianca.pdf)
+- Sampling
+  - [SMOTE, 2002](https://arxiv.org/pdf/1106.1813.pdf)
+  - [SMOTE for learning from imbalanced data : progress and challenges, 2018](https://www.jair.org/index.php/jair/article/view/11192)
+  - [Influence of minority class instance types on SMOTE imbalanced data oversampling](https://www.researchgate.net/publication/320625181_Influence_of_minority_class_instance_types_on_SMOTE_imbalanced_data_oversampling)
+  - [Calibrating Probability with Undersampling for Unbalanced Classification .2015](https://www3.nd.edu/~dial/publications/dalpozzolo2015calibrating.pdf)
+  - [A Study of the Behavior of Several Methods for Balancing Machine Learning Training Data](https://www.researchgate.net/publication/220520041_A_Study_of_the_Behavior_of_Several_Methods_for_Balancing_machine_Learning_Training_Data)
+  - [Dynamic Sampling in Convolutional Neural Networks for Imbalanced Data Classification](https://users.cs.fiu.edu/~chens/PDF/MIPR18_CNN.pdf)
+- Ensemble Learning
+  - [Self-paced Ensemble for Highly Imbalanced Massive Data Classification, 2020](https://arxiv.org/abs/1909.03500)
+- Feature Selection
+  - [Ensemble-based wrapper methods for feature selection and class imbalance learning, 2010](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.706.4216&rep=rep1&type=pdf)
+  - A comparative study of iterative and non-iterative feature selection techniques for software defect prediction
+-  Learning feature representations of normality
+   - [Outlier Detection with AutoEncoder Ensemble, 2017](https://saketsathe.net/downloads/autoencoder.pdf)
+   - [Auto-Encoding Variational Bayes ,2014](https://arxiv.org/abs/1312.6114)
+   - [Deep Variational Information Bottleneck, ICLR 2017](https://arxiv.org/abs/1612.00410)
+   - [Extracting and Composing Robust Features with Denoising Autoencoders, 2008](https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf)
+   - [Generatice Adversarial Nets, NIPS 2014](https://papers.nips.cc/paper/2014/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html)
+   - [Least Squares Generative Adversarial Networks ,2016](https://arxiv.org/abs/1611.04076)
+   - [Adversarial Autoencoders, 2016](https://arxiv.org/abs/1511.05644)
+   - [Generative Probabilistic Novelty Detection with Adversarial Autoencoders , NIPS 2018](https://papers.nips.cc/paper/2018/file/5421e013565f7f1afa0cfe8ad87a99ab-Paper.pdf)
+   - [Deep Autoencoding Gaussian Mixture Model For Unsupervised Anomaly Detection, ICLR 2018](https://sites.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf)
+   - [Anomaly Detection with Robust Deep Autoencoders, KDD 2017](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p665.pdf)
+- Time Series and Streaming Anomaly Detection
+  - [Anomaly Detection In Univariate Time-Series : A Survey on the state-of-the-art](https://arxiv.org/abs/2004.00433)
+  - [USAD : UnSupervised Anomaly Detection on multivariate time series, KDD2020](https://dl.acm.org/doi/10.1145/3394486.3403392)
+  - [Variational Attention for Sequence-to-Sequence Models, 2017](https://arxiv.org/abs/1712.08207)
+  - [A Multimodal Anomaly Detector for Robot-Assisted Feeding Using an LSTM-based Variational Autoencoder (2017)](https://arxiv.org/abs/1711.00614)
+  - [Outlier Detection for Time Series with Recurrent Autoencoder Ensembles , 2019](https://www.ijcai.org/proceedings/2019/0378.pdf)
+  - [Robust Anomaly Detection for Multivariate time series through Stochastic Recurrent Neural Network, KKD 2019](https://github.com/NetManAIOps/OmniAnomaly)
+  - [Time Series Anomaly Detection with Multiresolution Ensemble Decoding, AAAI 2021](https://ojs.aaai.org/index.php/AAAI/article/view/17152)
+  - [An Improved Arima-Based Traffic Anomaly Detection Algorithm for Wireless Sensor Networks ,2016](https://journals.sagepub.com/doi/pdf/10.1155/2016/9653230)
+  - [Time-Series Anomaly Detection Service at Microsoft, 2019](https://arxiv.org/abs/1906.03821)
+  - [Time Series Anomaly Detection Using Convolutional Neural Networks and Transfer Learning, 2019](https://arxiv.org/pdf/1905.13628.pdf)
+  - [Abuse and Fraud Detection in Streaming Services Using Heuristic-Aware Machine Learning, 2022 Netflix](https://arxiv.org/pdf/2203.02124.pdf)
+  - [Are Transformers Effective for Time Series Forecasting?, 2022](https://arxiv.org/pdf/2205.13504.pdf)
+
+### Causality
+- Heterogeneous treatment effect estimation, uplift
+  - [Causal Inference and Uplift Modeling A review of the literature, 2016](https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf) [`review`](./paper_review/Causal%20Inference%20and%20Uplift%20Modeling%20A%20review%20of%20the%20literature.md)
+  - [Double machine learning for treatment and causal parameters, 2016](https://www.econstor.eu/bitstream/10419/149795/1/869216953.pdf)
+  - [Metalearners for estimation heterogeneous treatment effects using machine learning, 2019](https://www.pnas.org/doi/epdf/10.1073/pnas.1804597116)
+  - [Estimation and Inference of Heterogeneous Treatment Effects using Random Forests, 2018](http://bayes.acs.unt.edu:8083/BayesContent/class/rich/articles/Estimation_And_Inference_Of_Heterogeneous_Treatment_Effects_Using_Random_Forests.pdf)
+
+# 📑 Other Reference
+### Rec Sys
 - 카카오
   - 카카오 AI 추천: 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천
   - 카카오 AI 추천: 토픽모델링과 MAB를 이용한 카카오 개인화 추천
@@ -136,6 +225,7 @@
   - [아자르에서 AI 기반 추천 모델의 타겟 지표를 설정하는 방법 (feat. 아하 모멘트), 2024](https://hyperconnect.github.io/2024/04/26/azar-aha-moment.html)
   - [협업 필터링을 넘어서: 하이퍼커넥트 AI의 추천 모델링, 2024](https://hyperconnect.github.io/2024/10/21/beyond-collaborative-filtering.html)
   - [이벤트 기반의 라이브 스트리밍 추천 시스템 운용하기, 2022](https://hyperconnect.github.io/2022/01/24/event-driven-recsys.html)
+  - [아자르에서는 어떤 추천 모델을 사용하고 있을까?, 2024](https://hyperconnect.github.io/2024/11/19/azar-recommendation-model.html)
 - 라인
   - [머신러닝을 활용한 오픈챗 클린 스코어 모델 개발기, 2020](https://engineering.linecorp.com/ko/blog/line-openchat-cleanscore)
   - [LINE Timeline의 새로운 도전 (2020.04)](https://engineering.linecorp.com/ko/blog/line-timeline-discover-ml-recommendation)
@@ -204,3 +294,38 @@
   - [Two Tower Model Architecture: Current State and Promising Extensions, 2023](https://blog.reachsumit.com/posts/2023/03/two-tower-model/)
   - [추천 시스템 서비스 적용을 위한 Elastic Search 도입기, 2022](https://blog.dramancompany.com/2022/11/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A0%81%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-elastic-search-%EB%8F%84%EC%9E%85%EA%B8%B0/)
   - [Recommendation Systems • Bias](https://aman.ai/recsys/bias/)
+
+### Imbalnaced Learning, Anomaly Detection
+- 배달의 민족
+  - [배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입](https://techblog.woowahan.com/11829/)
+- Netflix
+  - [Machine Learning for Fraud Detection in Streaming Services](https://netflixtechblog.medium.com/machine-learning-for-fraud-detection-in-streaming-services-b0b4ef3be3f6)
+- Pinterest
+  - [Warden: Real Time Anomaly Detection at Pinterest](https://medium.com/pinterest-engineering/warden-real-time-anomaly-detection-at-pinterest-210c122f6afa)
+  - [Fighting Spam using Clustering and Automated Rule Creation](https://medium.com/pinterest-engineering/fighting-spam-using-clustering-and-automated-rule-creation-1c01d8c11a05)
+- Lyft
+  - [Full-Spectrum ML Model Monitoring at Lyft](https://eng.lyft.com/full-spectrum-ml-model-monitoring-at-lyft-a4cdaf828e8f)
+  - [Building a large scale unsupervised model anomaly detection system — Part 1](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-1-aca4766a823c)
+  - [Building a large scale unsupervised model anomaly detection system — Part 2](https://eng.lyft.com/building-a-large-scale-unsupervised-model-anomaly-detection-system-part-2-3690f4c37c5b)
+- Others
+  - [Fraud Detection on Blockchain based on Machine learning (medium article)](https://jysden.medium.com/fraud-detection-on-ethereum-with-graph-neural-network-f434e5b9aef5)
+  - [Unsupervised and semi-supervised anomaly detection with data-centric ML, google blog](https://ai.googleblog.com/2023/02/unsupervised-and-semi-supervised.html)
+
+### Causality
+- Netflix
+  - [A Survey of Causal Inference Applications at Netflix](https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f)
+- Uber
+  - [Using Causal Inference to Improve the Uber User Experience, 2019](https://www.uber.com/en-KR/blog/causal-inference-at-uber/)
+- 넥슨
+  - [업리프트 모델링을 통해 게임 광고 전환율 향상시키기, 2023](https://www.intelligencelabs.tech/372bcb48-af74-4a4f-a2b5-57df9e45fcb9)
+- 네이버페이
+  - [Uplift Modeling을 통한 마케팅 비용 최적화 (with Multiple Treatments), 2024](https://medium.com/naverfinancial/uplift-modeling%EC%9D%84-%ED%86%B5%ED%95%9C-%EB%A7%88%EC%BC%80%ED%8C%85-%EB%B9%84%EC%9A%A9-%EC%B5%9C%EC%A0%81%ED%99%94-with-multiple-treatments-5e4e3824b9df)
+- Others
+  - [Brady Neal - Causal Inference](https://www.youtube.com/c/BradyNealCausalInference/playlists)
+  - [인과추론의 데이터과학](https://www.youtube.com/c/%EC%9D%B8%EA%B3%BC%EC%B6%94%EB%A1%A0%EC%9D%98%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B3%BC%ED%95%99/playlists)
+  - [EconML/CausalML KDD 2021 Tutorial](https://causal-machine-learning.github.io/kdd2021-tutorial/)
+  - [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html)
+  - [Dowhy 가이드 실습 pap gitbook](https://playinpap.gitbook.io/dowhy/)
+  - [Causal-Inference-and-Discovery-in-Python](https://github.com/PacktPublishing/Causal-Inference-and-Discovery-in-Python)
+  - [For effective treatment of churn, don’t predict churn, 2019](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
+  - [Causal inference 123, Microsoft Shujuan(Jane) Huang 2020](https://medium.com/@shujuanhuang)
